@@ -51,6 +51,7 @@
   --burgunde: hsl(339, 61%, 19%);
   --light: hsl(339, 12%, 80%);
   --light-btn: hsl(339, 93%, 34%);
+  max-width: 1440px;
 }
 body {
   margin: 0;
