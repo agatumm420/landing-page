@@ -51,7 +51,6 @@
   --burgunde: hsl(339, 61%, 19%);
   --light: hsl(339, 12%, 80%);
   --light-btn: hsl(339, 93%, 34%);
-  max-width: 1440px;
 }
 body {
   margin: 0;
@@ -65,6 +64,7 @@ body {
   /* height: 100vh; */
 }
 .header {
+  max-width: 1440px;
   font-family: "Hero Light Regular";
   background-color: var(--burgunde);
   width: 100%;
@@ -98,6 +98,7 @@ a {
   font-size: 20px;
 }
 .row-1 {
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,12 +152,12 @@ a {
   width: 400px;
   height: 250px;
   padding-right: 80px;
+  border-radius: 15px;
 }
 .second-helf {
   display: flex;
   justify-content: center;
   padding-right: 0px;
-  padding-right: 160px;
 }
 .title2 {
   color: var(--burgunde);
@@ -167,6 +168,7 @@ a {
   padding-bottom: 15px;
 }
 .second-row {
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -214,6 +216,7 @@ a {
   color: var(--gray);
 }
 .third-row {
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,6 +241,7 @@ a {
   color: var(--burgunde);
 }
 .fourth-row {
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,6 +278,7 @@ a {
   height: 60px;
 }
 .footer {
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
